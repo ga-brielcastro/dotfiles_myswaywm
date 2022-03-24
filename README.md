@@ -3,9 +3,9 @@
 Estes são os meus arquivos de configuração do SwayWM
 
 <div align="center">
-	<img src="prints/screenshot1.png" />
-	<img src="prints/screenshot2.png" />
-	<img src="prints/screenshot3.png" />
+	<img src="prints/screenshot1.png" width="450"/>
+	<img src="prints/screenshot2.png" width="450" />
+	<img src="prints/screenshot3.png" width="450" />
 </div>
 
 ## Instalado
