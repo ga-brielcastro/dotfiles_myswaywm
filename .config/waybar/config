@@ -13,7 +13,7 @@
 
 	"layer": "top",
 	"position": "top",
-	"height": 18,
+	"height": 15,
 
 	"modules-left": [
 		"sway/mode",
@@ -60,8 +60,8 @@
 			"warning": 30,
 			"critical": 15
 		},
-		"format": " {capacity}%", // Icon: bolt
-		"format-discharging": " {capacity}%",
+		"format": "  {capacity}%", // Icon: bolt
+		"format-discharging": "{icon} {capacity}%",
 		"format-icons": [
 			"", // Icon: battery-full
 			"i", // Icon: battery-three-quarters
@@ -134,18 +134,18 @@
 	},
 
 	"sway/workspaces": {
-		"all-outputs": false,
+		"all-outputs": true,
 		"disable-scroll": false,
-		"format": "{icon}",
+		"format": "{name}: {icon}",
 		"format-icons": {
-			"1:www": "", // Icon: firefox-browser
-			"2:mail": "", // Icon: mail
-			"3:editor": "", // Icon: code
-			"4:terminals": "", // Icon: terminal
-			"5:portal": "", // Icon: terminal
-			"urgent": "",
-			"focused": "",
-			"default": ""
+			"1": "", // Icon: firefox-browser
+			"2": "", // Icon: mail
+			"3": "", // Icon: code
+			"4": "", // Icon: terminal
+			"5": "", // Icon: terminal
+			//"urgent": "",
+			//"focused": "",
+			//"default": ""
 		}
 	},
 
@@ -196,7 +196,7 @@
 	},
 
 	"tray": {
-		"icon-size": 15
+		"icon-size": 13
 		//"spacing": 10
 	},
 
